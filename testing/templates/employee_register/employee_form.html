@@ -1,0 +1,28 @@
+{% extends "employee_register/base.html" %}
+
+    {% block content %}
+    <div class="userform">
+        <div class="form bg-success">
+
+            <h3>Fill in your details</h3>
+                  <form action="" method="post" enctype="multipart/form-data">
+                      {% csrf_token %}
+                      {{ form.as_p }}
+                  
+                      <button type="submit">Submit</button>
+                      <div>
+                      <a href="{% url 'employee_list' %}" >Back To List</a>
+                      </div>
+                    
+                  </form>
+        </div>
+    </div>
+
+    {% endblock content %}
+
+<!-- from testing.models import Position
+
+# Create instances for the positions
+senior_developer = Position.objects.create(title='Senior Developer')
+junior_developer = Position.objects.create(title='Junior Developer')
+inter = Position.objects.create(title='Intern') -->

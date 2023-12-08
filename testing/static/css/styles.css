@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(204, 184, 184);
+}
+
+.userform {
+   
+    display: grid;
+    justify-content: center;
+
+    margin-top: 4rem;
+}
+a {
+    text-decoration: none;
+}
+.form {
+    background-color: black;
+    padding: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.form a {
+    color: black;
+   margin-left: 4rem;
+  
+   
+}
+.list {
+    display: grid;
+        justify-content: center;
+        padding: 2rem;
+}
+
+.buttons {
+    display: flex;
+    padding: 1rem;
+}
+.edit {
+    margin-right: 2rem;
+}
+table td {
+    padding-left: 2rem;
+}
+.list button {
+    display: flex;
+}
